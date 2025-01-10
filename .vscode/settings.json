@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "dice_roll.sln"
+    "dotnet.defaultSolution": "diceroll.sln"
 }

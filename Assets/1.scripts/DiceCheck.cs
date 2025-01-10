@@ -10,6 +10,7 @@ public class DiceCheck : MonoBehaviour
     Vector3 diceVelocity;
     // 주사위 속도를 저장할 벡터 선언
     void FixedUpdate() { // 호출한다 고정된 간격만큼(매 프레임x) 근데 뭔차이임 (진짜모름) (물리연산 보통 여기서?)
+    //아 물리연산은 매프레임 계산하는게 아니구나나
         diceVelocity = DiceScript.diceVelocity;
         // diceScript에서 정의한 주사위 속도 추적 (정지했는지?)
    

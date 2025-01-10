@@ -20,7 +20,7 @@ public class DiceScript : MonoBehaviour
 
     void Update()
     {
-        diceVelocity = rb.velocity;
+        diceVelocity = rb.linearVelocity;
         //rb.velocity 로 했는데 왜 바뀌나요
         //아 사라진거엿네 ㅈㅅ https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Rigidbody.html 여기 참고
 
@@ -28,6 +28,7 @@ public class DiceScript : MonoBehaviour
             //스페이스바를 눌러봐라
             //DiceNumberTextScript.diceNumber = 0;
             //숫자 초기화
+            //초기화 하는 함수 찾아보삼 
 
             float dirX = Random.Range(100,300);
             float dirY = Random.Range(100,300);
